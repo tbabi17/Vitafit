@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"    
+    android:layout_height="fill_parent">
+
+    <Spinner
+        android:id="@+id/spChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:entries="@array/channel"/>
+
+    <LinearLayout
+	    android:layout_height="20dp"
+	    android:layout_width="fill_parent"
+	    android:padding="2dp">
+	 
+	    <TextView
+	        android:id="@+id/FirstText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:text="Код"
+	        android:paddingLeft="5dp"
+	        android:layout_weight="1">
+	    </TextView>
+	     
+	    <TextView
+	        android:id="@+id/SecondText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="Нэр"
+	        android:textSize="12dip"
+	        android:layout_weight="3">
+	    </TextView>
+	     
+	    <TextView
+	        android:id="@+id/ThirdText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="Төлөв"
+	        android:layout_weight="1">
+	    </TextView>
+	     
+	    <TextView
+	        android:id="@+id/FourthText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="Гүйц"
+	        android:layout_weight="1">
+	    </TextView>
+	    
+	    <TextView
+	        android:id="@+id/SixthText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="%"
+	        android:layout_weight="1">
+	    </TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:padding="2dp"
+		android:orientation="vertical"
+		android:layout_weight="3"
+		android:layout_height="wrap_content">
+		<ListView
+	        android:id="@+id/listviewPlan"
+	        android:padding="2dp"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+    </ListView>
+	</LinearLayout>	
+	<LinearLayout
+	    android:layout_height="20dp"
+	    android:layout_width="fill_parent">
+	 
+	    <TextView
+	        android:id="@+id/totalText"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:textSize="14sp"
+	        android:text="Нийт:"
+	        android:paddingLeft="10dp"
+	        android:layout_weight="1">
+	    </TextView>
+	     
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:textSize="12dip"
+	        android:layout_weight="3">
+	    </TextView>
+	     
+	    <TextView
+	        android:id="@+id/totalTuluv"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="0"
+	        android:textSize="11sp"
+	        android:layout_weight="1">
+	    </TextView>
+	     
+	    <TextView
+	        android:id="@+id/totalGuitsSh"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="0"
+	        android:textSize="11sp"
+	        android:layout_weight="1">
+	    </TextView>
+	    
+	    <TextView
+	        android:id="@+id/totalPer"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="0"
+	        android:textSize="11sp"
+	        android:layout_weight="1">
+	    </TextView>
+	</LinearLayout>
+</LinearLayout>
+

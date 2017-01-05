@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"	
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"	
+	android:layout_weight="1"
+	android:padding="5dp"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
+	android:background="@drawable/transparent_button"
+	android:id="@+id/panel">
+	<LinearLayout
+		    android:layout_width="fill_parent"		    
+		    android:padding="10dp"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">		 		    		     			  
+				
+	    		<ImageView
+	    		    android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center"
+			        android:src="@drawable/info">
+	    		    
+	    		</ImageView>
+	            <TextView
+	                android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="@color/black"
+			        android:id="@+id/message"
+			        android:paddingTop="20dp"
+			        android:textSize="15dp"
+			        android:layout_gravity="center"
+			        android:text="Алдаа гарлаа">
+	
+	            </TextView>	            		    
+	</LinearLayout>
+</LinearLayout>

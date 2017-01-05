@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+		android:layout_width="fill_parent"  	
+		android:background="@drawable/head"  		  
+		android:layout_height="42dp"  		
+		android:padding="3dp"		  		  	
+		android:orientation="horizontal">
+		<Button
+		    android:id="@+id/back"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/button_selector"
+		    android:textColor="@drawable/title_selector"
+		    android:textSize="13dp"
+		    android:paddingTop="5dp"
+		    android:paddingBottom="5dp"
+		    android:paddingLeft="18dp"
+		    android:paddingRight="18dp"		    
+		    android:text="Буцах">		    
+		</Button>	
+  	   <LinearLayout
+	  		android:layout_width="fill_parent"  					  		
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_gravity="center_vertical">
+	  	    <TextView 
+	        	android:id="@+id/title"
+	        	android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginLeft="10dp"
+	        	android:layout_weight="1"
+	        	android:textColor="#fff"
+	        	android:textSize="15sp"
+	        	android:textStyle="bold"
+	        	android:shadowDx="1"	        	
+	        	android:shadowDy="1"
+	        	android:shadowColor="@color/black"
+	        	android:shadowRadius="1"
+	        	android:text="title"/>	      
+		</LinearLayout>	
+    </LinearLayout>  
+    <LinearLayout
+     	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:padding="10dip"
+    	android:orientation="vertical">     
+        <TextView            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"            
+            android:textSize="20dip"
+            android:text="Харилцагчийн нэр :"
+            android:textColor="#fff"                        
+        />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:id="@+id/_name"                        
+            android:text=""
+            android:background="@drawable/text_selector"
+            android:textSize="16dip"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#000"/>
+            
+        <TextView        
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"            
+            android:textSize="20dip"
+            android:text="Байршил :"
+            android:textColor="#fff"                        
+        />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:id="@+id/location"
+            android:inputType="text"                           
+            android:text=""
+            android:singleLine="true"
+            android:padding="8dp"
+            android:background="@drawable/text_selector"
+            android:textSize="16dip"
+            android:textColor="#000"/>
+            
+		<TextView        
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"            
+            android:textSize="20dip"
+            android:text="Утасны дугаар :"
+            android:textColor="#fff"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:id="@+id/phone1"
+            android:inputType="phone"                        
+            android:text=""
+            android:padding="8dp"
+            android:singleLine="true"
+            android:background="@drawable/text_selector"
+            android:textSize="16dip"
+            android:textColor="#000"/>
+        
+        <TextView        
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"            
+            android:textSize="20dip"
+            android:text="Чиглэл :"
+            android:textColor="#fff"                        
+        />    
+        <Spinner android:id="@+id/routeList" android:layout_width="fill_parent" 
+        		android:layout_height="wrap_content" />
+                                             
+        <TextView        
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"            
+            android:textSize="20dip"
+            android:text="Үнэ :"
+            android:textColor="#fff"                        
+        />    
+        <Spinner android:id="@+id/priceList" android:layout_width="fill_parent" 
+        		android:layout_height="wrap_content" />
+	</LinearLayout>
+	
+	<LinearLayout
+  		android:layout_width="fill_parent"  		  		  		
+  		android:layout_height="45dip"
+     	android:background="@drawable/head"
+     	android:padding="2dip" 
+     	android:orientation="horizontal">
+		<Button
+			android:id="@+id/customer_send"
+			android:text="Илгээх"			
+			android:layout_width="fill_parent"
+			android:textColor="@drawable/title_selector"
+			android:background="@drawable/button_selector"
+			android:layout_weight="1"
+			android:layout_height="wrap_content">
+		</Button>	
+	</LinearLayout>		                                             
+</LinearLayout>

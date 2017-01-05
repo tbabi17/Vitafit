@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"        
+    android:layout_height="wrap_content"
+    android:minWidth="300dp">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:padding="5dip"
+		android:layout_margin="8dip"
+		android:orientation="vertical"
+		android:layout_height="wrap_content">
+		<mxc.android.picker.OrderNumberPicker		
+			android:id="@+id/order_count"	
+			android:layout_width="fill_parent"
+			android:layout_weight="1"			
+			android:layout_height="wrap_content" />		
+	</LinearLayout>			
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dip"		
+		android:background="@color/dock">
+		<Button
+			android:id="@+id/order_insertbox_accept"
+			android:text="Болсон"			
+			android:layout_width="fill_parent"
+			android:textColor="@drawable/title_selector"
+  			android:background="@drawable/button_selector"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			>
+		</Button>
+		<Button
+			android:id="@+id/order_insertbox_close"
+			android:text="Хаах"			
+			android:layout_width="fill_parent"
+			android:layout_weight="1"
+			android:textColor="@drawable/title_selector"
+  			android:background="@drawable/button_selector"
+			android:layout_height="wrap_content"
+			>
+		</Button>
+	</LinearLayout>
+</LinearLayout>
+

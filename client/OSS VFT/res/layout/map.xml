@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+		android:layout_width="fill_parent"  	
+		android:background="@drawable/head"  		  
+		android:layout_height="42dp"  		
+		android:padding="3dp"		  		  	
+		android:orientation="horizontal">
+		<Button
+		    android:id="@+id/back"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/back_selector"
+		    android:textColor="@drawable/title_selector"
+		    android:textSize="13dp"
+		    android:paddingLeft="15dp"
+		    android:paddingRight="10dp"		    
+		    android:layout_gravity="center_horizontal"
+		    android:textStyle="bold"
+		    android:text="Буцах">		    
+		</Button>	
+  	   <LinearLayout
+	  		android:layout_width="fill_parent"  					  		
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_gravity="center_vertical">
+	  	    <TextView 
+	        	android:id="@+id/title"
+	        	android:layout_width="fill_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_marginLeft="10dp"
+	        	android:layout_weight="1"
+	        	android:textColor="#fff"
+	        	android:textSize="15sp"
+	        	android:textStyle="bold"
+	        	android:shadowDx="1"	        	
+	        	android:shadowDy="1"
+	        	android:shadowColor="@color/black"
+	        	android:shadowRadius="1"
+	        	android:text="title"/>	      
+		</LinearLayout>	
+    </LinearLayout>   	
+	    
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="046S_m5BQ43JIRtKiXQfldWwo2ddlU6dL6ca9SQ"
+        android:layout_weight="1"    
+        android:enabled="true"    
+        android:clickable="true"/>	
+    
+    <LinearLayout
+  		android:id="@+id/buttons"
+  		android:layout_width="fill_parent"  		
+  		android:layout_height="45dp"
+  		android:padding="2dip"    			
+  		android:background="@drawable/head"
+  		android:orientation="horizontal">
+  		<Button
+  			android:id="@+id/sendloc"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent"  			
+  			android:text="Байршил илгээх"
+  			android:background="@drawable/button_selector" 
+	        android:textColor="@drawable/title_selector"
+	        android:layout_marginRight="1dip"
+  			android:layout_weight="1"/>  
+		<Button
+  			android:id="@+id/snapshot"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent"  			
+  			android:text="Зураг авах"
+  			android:background="@drawable/button_selector" 
+	        android:textColor="@drawable/title_selector"
+	        android:layout_marginLeft="1dip"
+  			android:layout_weight="1"/>   				
+  </LinearLayout>
+
+</LinearLayout>

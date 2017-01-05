@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"    
+    android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:padding="5dip"
+		android:layout_margin="8dip"
+		android:orientation="vertical"
+		android:layout_height="wrap_content">
+		<mxc.android.picker.NumberPicker		
+			android:id="@+id/achilt_id"	
+			android:layout_width="fill_parent"
+			android:layout_weight="1"			
+			android:layout_height="wrap_content" />
+
+		<CheckBox
+		    android:id="@+id/daivar"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="Дайвар ачилт" />
+		
+		<Button	    			    		    		
+	    		android:padding="4dip"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textColor="#000"
+				android:id="@+id/hurgelt_ognoo"
+				android:text="Хүргэлтийн огноо">
+		</Button>	
+								
+	</LinearLayout>			
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dip"		
+		android:background="#ff999999">
+		<Button
+			android:id="@+id/accept"
+			android:text="Болсон"			
+			android:layout_width="fill_parent"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			>
+		</Button>
+		<Button
+			android:id="@+id/close"
+			android:text="Хаах"			
+			android:layout_width="fill_parent"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			>
+		</Button>
+	</LinearLayout>
+</LinearLayout>
+

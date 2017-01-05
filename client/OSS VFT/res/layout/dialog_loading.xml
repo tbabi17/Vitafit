@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"	
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"	
+	android:layout_weight="1"
+	android:padding="5dp"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
+	android:background="@drawable/loading_button"
+	android:id="@+id/panel">
+		<ImageView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:src="@drawable/boot"		    
+		    android:id="@+id/loading">
+		</ImageView>
+		<TextView
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="15dp"
+			android:id="@+id/title"			
+			android:padding="6dp"
+			android:layout_marginLeft="10dp"
+			android:textColor="@color/white"
+			android:text="Уншиж байна ...">
+		</TextView>
+</LinearLayout>

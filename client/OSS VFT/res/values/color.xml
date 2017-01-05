@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="transparent">#ff000000</color>
+ <color name="green">#92d22c00</color>
+ <color name="white">#ffffffff</color>
+ <color name="blue">#6fa9d600</color>
+ <color name="dock">#ff555555</color>
+ <color name="red">#ffE22323</color>
+ <color name="twit">#ff48b7b9</color>  
+ <color name="dark">#ff888888</color>
+ <color name="gray">#ffcfcfcf</color>  
+ <color name="black">#ff000000</color>
+</resources>

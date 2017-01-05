@@ -1,0 +1,25 @@
+<resources>
+
+    <dimen name="control_button_height">200dp</dimen>
+    <dimen name="control_button_paddingTop">30dp</dimen>
+    <dimen name="control_font_size">25sp</dimen>    
+    <dimen name="button_text_size">20dp</dimen>
+    <dimen name="button_height">80dp</dimen>
+
+    
+    <!--login  -->
+    <dimen name="title_text_size">30dip</dimen>
+    <dimen name="tanii_kod_text_size">30dp</dimen>    
+    <dimen name="login_user_text_size">50dp</dimen>
+    <dimen name="login_pass_text_size">40dp</dimen>
+    <dimen name="login_user_text_width">180dp</dimen>
+    
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="bottom_height">60dp</dimen>
+    <dimen name="toolbar_button_text_size">18dp</dimen>    
+    <dimen name="toolbar_button_text_size_hi">20dp</dimen>
+    
+    <dimen name="list_text_size">20dp</dimen>
+    <dimen name="list_text_size_lo">16dp</dimen>
+    <dimen name="list_text_size_hi">22dp</dimen>    
+</resources>

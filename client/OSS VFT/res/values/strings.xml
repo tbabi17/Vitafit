@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OSS VFT</string>
+    <string name="greeting">BIXOLON SAMSUNG B2BSTUDIO</string>
+    <string name="ip_add">255.255.255.255</string>
+    <string name="port">0000</string>
+    <string name="title">OSS VFT 5.7</string>
+    <string name="abouttxt">OSS VFT 5.6 Copyright (c) 2011-2015 created by MXC</string>
+    <string name="APIMapKey">AIzaSyCvF_zjgevIMHBPcM4eV3rZS5aaUFmyGiM</string>
+    <string-array name="control_settings_array">
+        <item>Тооны машин</item>
+		<item>Сүүлчийн гүйлгээг хэвлэх</item>
+		<item>Өөрийн үлдэгдэл</item>         
+        <item>Төлөвлөгөө ба борлуулалт</item>
+        <item>Зээлийн мэдээлэл</item>
+        <item>Харилцагч бүртгүүлэх</item>
+        <item>Амжилтгүй гүйлгээнүүд</item>
+        <item>Цэвэрлэх</item>
+        <item>Зураг илгээх</item>
+        <item>Хэмжих нэгж солих</item>
+        <item>Нууц код өөрчлөх</item>
+    </string-array>
+    
+    <string-array name="control_settings_array_sup">
+        <item>Тооны машин</item>
+		<item>Rought Report</item>
+		<item>Daily Report</item> 
+        <item>Харилцагч бүртгүүлэх</item>
+        <item>Цэвэрлэх</item>   
+		<item>Зураг илгээх</item>    
+        <item>Нууц код өөрчлөх</item>
+    </string-array>
+    
+    <string-array name="channel">
+        <item>vitafit</item>
+		<item>pepsi</item>
+		<item>total</item>
+    </string-array>
+</resources>

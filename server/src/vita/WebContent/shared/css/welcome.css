@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+	background:#607890;
+	/*-webkit-font-smoothing:antialiased;*/
+	color: #484848;	
+	border-top:1px solid #005888;	
+	font-family:helvetica,tahoma,verdana,sans-serif;
+	padding:8px;
+    padding-top:8px;
+    font-size:13px;
+}
+#page{
+	padding:5px 5px;
+	background:#fff;
+	width: auto;	
+	height: auto;	
+}
+
+footer{color:#b9d4e7;padding:8px 18px; align: center}
+#loading { position: absolute; width: 220px; margin: -50px 0 0 -90px; height: 140px; top: 50%; left: 50%; }
+#loading .loading-msg { position: absolute; color: #fff; display: block; top: 0; left: 30px; width: 220px; height: 27px; }
+#loading .logo { background: url(../img/loading.gif) no-repeat; position: absolute; display: block; top: 25px; left: 0px; width: 220px; height: 45px; }

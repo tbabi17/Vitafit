@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"    
+    android:background="@drawable/loading_button"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:padding="5dip"
+		android:layout_margin="8dip"
+		android:orientation="vertical"
+		android:layout_height="wrap_content">		
+		<mxc.android.picker.NumberPicker		
+			android:id="@+id/sale_count"	
+			android:layout_width="fill_parent"
+			android:layout_weight="1"			
+			android:layout_height="wrap_content" />
+		<mxc.android.picker.NumberPicker		
+			android:id="@+id/rent_count"	
+			android:layout_width="fill_parent"
+			android:layout_weight="1"			
+			android:layout_height="wrap_content" />				
+	</LinearLayout>			
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dip"		
+		android:background="#ff999999">
+		<Button
+			android:id="@+id/sale_insertbox_accept"
+			android:text="Болсон"			
+			android:layout_width="fill_parent"
+			android:textColor="@drawable/title_selector"
+  			android:background="@drawable/button_selector"
+			android:layout_weight="1"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button
+			android:id="@+id/sale_insertbox_close"
+			android:text="Хаах"			
+			android:textColor="@drawable/title_selector"
+  			android:background="@drawable/button_selector"
+			android:layout_width="fill_parent"
+			android:layout_weight="1"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+</LinearLayout>
+
